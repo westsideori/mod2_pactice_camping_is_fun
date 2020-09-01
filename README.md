@@ -1,3 +1,7 @@
+- Button (delete button)
+- render vs redirect 
+- flash
+
 ## The Domain
 Congratulations! You have been hired by Access Camp and for your first job, you have been tasked with building out a website to log campers with their activities.
 

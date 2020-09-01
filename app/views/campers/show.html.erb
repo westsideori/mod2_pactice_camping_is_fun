@@ -1,0 +1,19 @@
+<h1>Camper Show</h1>
+
+<h3>Name: <%= @camper.name %></h3>
+<p>age: <%= @camper.age %></p>
+
+<h2>My Activities</h2>
+<%# @camper.activities.each do |activity| %>
+  <p><%# activity.name %></p>
+<%# end %>
+
+
+<% @camper.signups.each do  |signup| %>
+  <p><%= signup.activity.name %> | <%= signup.time %></p>
+<% end %>
+
+
+
+                              <%# /campers/:id %>
+<%= button_to "Delete Camper", camper_path(@camper), method: :delete  %>
